@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StringTable_hu
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: hu
+  m_SharedData: {fileID: 11400000, guid: 484ee691bc6b2ea4c86e51f92d14a091, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 8316112896
+    m_Localized: Vezerles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189027700736
+    m_Localized: Mozgas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268425875456
+    m_Localized: Interakcio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 452329328640
+    m_Localized: Hasznal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 483979546624
+    m_Localized: Statisztika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 539877036032
+    m_Localized: Befejezesek feloldva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704134369280
+    m_Localized: Interakciok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 766960848896
+    m_Localized: Ejszakak ataludva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5259282731008
+    m_Localized: Sikeresen vegigjatszottad a jatekot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5532608745472
+    m_Localized: 'Koszonom hogy kivitted az elso reszet a '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5927259197440
+    m_Localized: Remelem tetszett
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6054912839680
+    m_Localized: keszitette bananplayss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6266825854976
+    m_Localized: Q - Felallas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8334097633280
+    m_Localized: HALAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9436037763072
+    m_Localized: Jobb klikk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35397663838208
+    m_Localized: Nyelv    Magyar
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
