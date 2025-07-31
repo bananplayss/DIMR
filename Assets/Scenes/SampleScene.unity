@@ -44324,6 +44324,7 @@ GameObject:
   - component: {fileID: 963194230}
   - component: {fileID: 963194231}
   - component: {fileID: 963194233}
+  - component: {fileID: 963194234}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -44525,6 +44526,45 @@ MonoBehaviour:
   _outlineResources: {fileID: 11400000, guid: d28e70f030b1a634db9a6a6d5478ef19, type: 2}
   _outlineLayers: {fileID: 0}
   _cameraEvent: 10
+--- !u!114 &963194234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 4198912471195451394
+  references:
+    version: 2
+    RefIds:
+    - rid: 4198912471195451394
+      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 963194233}
+        m_TrackedProperties:
+          items:
+          - rid: 4198912471195451395
+        m_UpdateType: 0
+        m_Changed:
+          m_PersistentCalls:
+            m_Calls: []
+    - rid: 4198912471195451395
+      type: {class: BoolTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_Enabled
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: en
+          value: 1
+        - localeIdentifier:
+            m_Code: hu
+          value: 0
 --- !u!1 &968202082
 GameObject:
   m_ObjectHideFlags: 0
@@ -127413,12 +127453,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 2519dbf8b74b9004199cdd17a6b99aac, type: 3}
       propertyPath: m_Materials.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 2519dbf8b74b9004199cdd17a6b99aac, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 085868e7ab0a1ed49986fc312ca30044, type: 2}
+      objectReference: {fileID: 2100000, guid: 175e3d4b0298c684e96331758ead69e4, type: 2}
     - target: {fileID: 919132149155446097, guid: 2519dbf8b74b9004199cdd17a6b99aac, type: 3}
       propertyPath: m_Name
       value: Bed

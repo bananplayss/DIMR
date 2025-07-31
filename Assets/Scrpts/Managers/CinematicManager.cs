@@ -95,7 +95,8 @@ namespace bananplayss {
 		}
 
 		private void HandleAnimator(bool applyRootMotion, bool enableAnimator) {
-
+			playerAnim.applyRootMotion = applyRootMotion;
+			playerAnim.enabled = enableAnimator;
 		}
 
 		public void StartSleepCutscenePublic() {
@@ -128,8 +129,8 @@ namespace bananplayss {
 		}
 
 		private void StartSleepCutscene() {
-			HandleAnimator(false, true);
 			playerAnim.Play(SLEEP_CUTSCENE);
+			HandleAnimator(false, true);
 		}
 
 		public void StartTelevisionEndingCutscene() {
