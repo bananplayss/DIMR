@@ -1,6 +1,6 @@
 # DIMR
 A horror escape game with multiple endings
-Find clues, notes, interact with everything you can, and unlock all endings by dying.
+### Find clues, notes, interact with everything you can, and unlock all endings by dying.
 
 ### Screenshots without spoilers:
 <img width="1920" height="1080" alt="start screen" src="https://github.com/user-attachments/assets/0fac3efc-450c-4bd0-afe0-dad728b404bc" />
